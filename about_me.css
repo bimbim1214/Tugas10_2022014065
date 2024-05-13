@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 150px; /* Sesuaikan lebar gambar dengan kebutuhan */
+    height: 150px; /* Sesuaikan tinggi gambar dengan kebutuhan */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}

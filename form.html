@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Calon Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" style="background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+            <h2>Formulir Calon Player</h2>
+            <fieldset>
+                <legend>Informasi Pribadi</legend>
+                <div class="input-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="input-group">
+                    <label for="alamat">Alamat:</label>
+                    <input type="text" id="alamat" name="alamat" required>
+                </div>
+                <div class="input-group">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="pass" required>
+                </div>
+                <div class="input-group">
+                    <label for="jk">Jenis Kelamin:</label>
+                    <input type="radio" id="laki" name="jk" value="laki-laki" checked>
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jk" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Kemampuan dan Kota Asal</legend>
+                <div class="input-group">
+                    <label for="bahasa">Type Player:</label>
+                    <input type="checkbox" id="Rusher" name="Rusher">
+                    <label for="web">Rusher</label>
+                    <input type="checkbox" id="Sniper" name="Sniper">
+                    <label for="mobile">Sniper</label>
+                    <input type="checkbox" id="Looting" name="Looting">
+                    <label for="desk">Looting</label>
+                </div>
+                <div class="input-group">
+                    <label for="kota">Kota Asal:</label>
+                    <select id="kota" name="kota">
+                        <option value="Semarang">Semarang</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Bandung">Yogyakarta</option>
+                        <option value="Bandung">Jakarta</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Alasan Memilih Anda</legend>
+                <div class="input-group">
+                    <label for="alasan">Apa yang membuat kami harus memilih Anda?</label>
+                    <textarea id="alasan" name="alasan" rows="6" required></textarea>
+                </div>
+            </fieldset>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <a href="index.html" class="home-link">Home</a>
+    </div>
+</body>
+</html>
